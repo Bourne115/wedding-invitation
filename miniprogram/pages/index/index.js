@@ -11,8 +11,8 @@ const isRemoved = APP.globalData.isRemoved
 Page({
     data: {
         ...APP.globalData,
-        isManager: false, // 当前用户是否为管理员
-        musicIsPaused: false, // 是否暂停背景音乐
+        isManager: true, // 当前用户是否为管理员
+        musicIsPaused: true, // 是否暂停背景音乐
         activeIdx: isRemoved ? 0 : -1, // 祝福语轮播用，当前显示的祝福语索引值
         form: { // 表单信息
             name: '',
@@ -49,10 +49,10 @@ Page({
 
         // 酒店信息（通过页面上的「选择位置并获取定位信息」按钮可以获取定位信息，发布前记得把按钮注释起来）
         location: genLocation([{
-            name: '婚宴酒店名XXXXXXXX',
-            address: '详细地址XXXXXXXXXXXXXXX',
-            latitude: 23.03387641906739,
-            longitude: 113.7241439819336
+            name: '神龙·新世界大酒店',
+            address: '湖南省衡阳市耒阳市城北中路与西湖北路交叉口东120米',
+            latitude: 26.412391,
+            longitude: 112.840391
         }])[0],
 
         // 图片信息（其实就是婚纱照了）

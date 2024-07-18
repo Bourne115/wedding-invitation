@@ -6,9 +6,9 @@
 	"window": {
 		"backgroundTextStyle": "light",
 		"navigationBarBackgroundColor": "#fff",
-		"navigationBarTitleText": "许久未见·甚是想念",
-        "navigationBarTextStyle": "black",
-        "backgroundColor": "#fff"
+		"navigationBarTitleText": "其乐融融，嘻嘻相随!",
+		"navigationBarTextStyle": "black",
+		"backgroundColor": "#fff"
 	},
 	"style": "v2",
 	"sitemapLocation": "sitemap.json",
